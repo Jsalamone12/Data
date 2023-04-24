@@ -1,0 +1,11 @@
+﻿@using (Html.BeginForm("Index", "Zip", FormMethod.Post))
+{
+    @Html.Label("Enter URL to clone:")
+    @Html.TextBox("url")
+    <input type="submit" value="Submit" />
+    <br />
+    @Html.Label("Enter URL to get zipped:")
+    @Html.TextBox("zipUrl")
+    <br />
+    <input type="submit" name="getZipped" value="getZipped" />
+}
