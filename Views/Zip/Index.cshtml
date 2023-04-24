@@ -1,1 +1,8 @@
-<h1>Zipped Index</h1>
+﻿@model Zip
+
+<form method="post" asp-controller="Zip" asp-action="Index">
+    <label>Enter URL to get zipped:</label>
+    <input type="text" name="zipUrl" />
+    <br />
+    <button type="submit" name="getZipped">getZipped</button>
+</form>
