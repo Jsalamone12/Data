@@ -18399,8 +18399,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/User/_Login.cshtml",
+      "TargetPath": "Views\\User\\_Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/User/_Register.cshtml",
+      "TargetPath": "Views\\User\\_Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/User/Index.cshtml",
+      "TargetPath": "Views\\User\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Zip/ZipComplete.cshtml",
+      "TargetPath": "Views\\Zip\\ZipComplete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18411,16 +18431,6 @@
     {
       "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Zip/Zip.cshtml",
-      "TargetPath": "Views\\Zip\\Zip.cshtml",
       "FileKind": "mvc"
     }
   ],
