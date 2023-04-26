@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Data.csproj": {}
+    "C:\\Users\\19045\\Desktop\\Data\\Data.csproj": {}
   },
   "projects": {
-    "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Data.csproj": {
+    "C:\\Users\\19045\\Desktop\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Data.csproj",
+        "projectUniqueName": "C:\\Users\\19045\\Desktop\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Data.csproj",
-        "packagesPath": "/Users/jsalamone/.nuget/packages/",
-        "outputPath": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/obj/",
+        "projectPath": "C:\\Users\\19045\\Desktop\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\19045\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\19045\\Desktop\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jsalamone/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\19045\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

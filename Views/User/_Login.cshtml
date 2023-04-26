@@ -1,26 +1,33 @@
 @model LoginUser
 
-<h3 class="text-center">Login</h3>
+<h3 class="text-center textColor">Login</h3>
 <hr />
 
 <form asp-action="Login" asp-controller="User" method="POST">
   <div class="mb-3">
-    <label asp-for="LoginEmail"></label>
+    <label class="textColor marLefting" asp-for="LoginEmail">Email : </label>
     <span
       class="text-danger font-weight-bold"
       asp-validation-for="LoginEmail"
     ></span>
-    <input class="form-control" asp-for="LoginEmail" />
+    <input class="form-control inputReg marLefting" asp-for="LoginEmail" />
   </div>
 
   <div class="mb-3">
-    <label asp-for="LoginPassword"></label>
+    <label class="textColor marLefting" asp-for="LoginPassword"></label>
     <span
       class="text-danger font-weight-bold"
       asp-validation-for="LoginPassword"
     ></span>
-    <input class="form-control" asp-for="LoginPassword" />
+    <input class="form-control inputReg marLefting" asp-for="LoginPassword" />
   </div>
-
-  <button class="btn btn-outline-success">Login</button>
+  <div>
+    <button class="button marLefting marTop" href="/">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Login
+    </button>
+  </div>
 </form>
