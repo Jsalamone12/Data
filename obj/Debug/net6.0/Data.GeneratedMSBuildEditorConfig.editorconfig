@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Data
 build_property.RootNamespace = Data
-build_property.ProjectDir = /Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/
+build_property.ProjectDir = c:\Users\19045\Desktop\Data\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data
+build_property.MSBuildProjectDirectory = c:\Users\19045\Desktop\Data
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Data/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGF0YS9JbmRleC5jc2h0bWw=
+[c:/Users/19045/Desktop/Data/Views/Data/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[c:/Users/19045/Desktop/Data/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[c:/Users/19045/Desktop/Data/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[c:/Users/19045/Desktop/Data/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+[c:/Users/19045/Desktop/Data/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/User/_Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fTG9naW4uY3NodG1s
+[c:/Users/19045/Desktop/Data/Views/User/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/User/_Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fUmVnaXN0ZXIuY3NodG1s
+[c:/Users/19045/Desktop/Data/Views/User/_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Zip/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvWmlwL0luZGV4LmNzaHRtbA==
+[c:/Users/19045/Desktop/Data/Views/Zip/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmlwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Zip/ZipComplete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvWmlwL1ppcENvbXBsZXRlLmNzaHRtbA==
+[c:/Users/19045/Desktop/Data/Views/Zip/ZipComplete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmlwXFppcENvbXBsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[c:/Users/19045/Desktop/Data/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[c:/Users/19045/Desktop/Data/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-f3vv9zmu6b
+[c:/Users/19045/Desktop/Data/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ta1fmii97u

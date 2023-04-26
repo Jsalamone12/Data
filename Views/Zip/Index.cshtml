@@ -1,8 +1,24 @@
 ﻿@model Zip
 
 <form method="post" asp-controller="Zip" asp-action="Index">
-    <label>Enter URL to get zipped:</label>
-    <input type="text" name="zipUrl" />
-    <br />
-    <button type="submit" name="getZipped">getZipped</button>
+    <div>
+        <div class="imgHolder">
+            <img class="lightbulb" src="~/img/lightbulb.png" alt="">
+            <p class="textColor spam">GotData</p>
+        </div>
+        
+        <div class="contain">
+            
+            <div class="inputMove">
+                <label class="textColor mb-5 textSize">Enter URL to get got :</label>
+                <input class="inputSize input" type="text" name="zipUrl" />
+                
+            </div>
+            <div>
+                <button type="submit" class='glowing-btn'><span class='glowing-txt'>GOT<span class='faulty-letter'>DA</span>TA</span></button>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
 </form>
