@@ -50,8 +50,48 @@ namespace Data.Controllers
 
             Console.WriteLine($"Website cloned successfully to {zipFilePath}");
 
+            ViewBag.zipFilePath = zipFilePath;
+            ViewBag.baseUrl = baseUrl;
+            ViewBag.downloadFolderPath = downloadFolderPath;
+            ViewBag.ziplocation = $"/Data/GotData/{zipUrl}.zip";
+
+
             return View("ZipComplete", new { zipFilePath });
         }
+
+//         [HttpGet("/download/one")] 
+//         public IActionResult Download()
+//         {
+//             // // Specify the path and filename of the file you want to download
+//             // var filePath = ViewBag.ZipFilePath; // replace with the actual path to your file
+//             // var fileName = Path.GetFileName(filePath); // replace with the actual name of your file
+
+//             // // Get a reference to the current HTTP response object
+//             // var response = HttpContext.Response;
+
+//             // // Clear the response object and set its content type to "application/octet-stream", which is a generic binary file type
+//             // response.Clear();
+//             // response.ContentType = "application/octet-stream";
+
+//             // // Add a content disposition header to the response, specifying that the file should be downloaded as an attachment with the specified filename
+//             // response.Headers.Add("Content-Disposition", "attachment; filename=\"" + fileName + "\"");
+
+//             // // Write the contents of the file to the response object using the WriteFile method
+//             // response.WriteFile(filePath);
+
+//             // // End the response to complete the download
+//             // response.CompleteAsync();
+
+//             // return RedirectToAction("Index");
+//     // Specify the path and filename of the file you want to download
+
+//     string filePath = ViewBag.ziplocation; // replace with the actual path to your file
+//     string fileName = "site.css"; // replace with the actual name of your file
+
+//     // Return a FileStreamResult that streams the file contents to the response
+//     return File(new FileStream(filePath, FileMode.Open), "application/octet-stream", fileName);
+// }
+        
 
         private static async Task DownloadAndZipPage(string url, ZipArchive zipArchive)
         {
@@ -223,5 +263,6 @@ namespace Data.Controllers
             return string.Equals(extension, ".js", StringComparison.OrdinalIgnoreCase);
         }
     }
+    
 }
 

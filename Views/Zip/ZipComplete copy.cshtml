@@ -1,0 +1,50 @@
+
+
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title class="glowing-txt">Download Completed</title>
+</head>
+<body>
+    <h2>Download Completed</h2>
+    <p>Your file has been downloaded successfully.</p>
+    <p>Click on the link below to download the file:</p>
+    <a href="~@ViewBag.zipFilePath" download>@ViewBag.zipFilePath</a>
+    <p>??????????????????</p>
+    @{
+        string name = "~/wwwroot/img/lightbulb.png";
+    }
+    <a href="@Url.Content(name)" download>Download root</a>
+    
+    <p>??????????????????</p>
+    <a href="~@ViewBag.ziplocation" download>Download correct</a>
+    <p>??????????????????</p>
+    <a href="@ViewBag.zipFilePath" download>Download @ViewBag.zipFilePath</a>
+
+
+<p>
+    ASP Download 
+    <a href="/download/one?zipUrl=@Model.zipUrl">Download File</a>
+</p>
+
+    </p>
+    <p>*******************************</p>
+    <p>@ViewBag.ziplocation</p>
+    <p>@ViewBag.zipFileName </p>
+    <p>*******************************</p>
+
+    <p> @ViewBag.zipFilePath </p>
+            <p>??????????????????</p>
+        <p>    @ViewBag.baseUrl </p>
+                <p>??????????????????</p>
+            <p>@ViewBag.downloadFolderPath </p>
+                <p>??????????????????</p>
+            <p>@ViewBag.zipUrl </p>
+
+</body>
+</html>
