@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kbFTMi/B/6wlWUcmEyzXJHR12Jp9yHNPxSmdXDihUN4=",
+  "Hash": "XcJxs2X5qehyW34yT/Mte5ByUqpQTs0xtlqV+sF3Jh8=",
   "Source": "Data",
   "BasePath": "_content/Data",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/wwwroot/img/lightbulb.png",
+      "SourceId": "Data",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/wwwroot/",
+      "BasePath": "_content/Data",
+      "RelativePath": "img/lightbulb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/lightbulb.png"
     },
     {
       "Identity": "/Users/jsalamone/Desktop/Coding_Dojo/CSharp/Data/wwwroot/js/site.js",

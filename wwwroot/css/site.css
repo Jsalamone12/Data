@@ -1,6 +1,8 @@
-html {
-  font-size: 14px;
+*{
+  margin: 0;
+  padding: 0;
 }
+
 
 @media (min-width: 768px) {
   html {
@@ -15,4 +17,473 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+  --glow-color: hsl(186 100% 69%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+.lightbulb{
+  background-color: black;
+  height: 200px;
+  margin-left: 1300px;
+}
+.contain{
+  margin-left: 230px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+.marLeft{
+  margin-left: 15px;
+}
+.textSize{
+  text-decoration: underline;
+  font-size: 2em;
+}
+.imgHolder {
+  display: flex;
+  width: 150px;
+
+}
+.spam{
+  margin-left: -92px;
+  margin-top: 200px;
+}
+.textColor{
+  color: var(--glow-color);
+  font-weight: 800;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px var(--glow-color), 0 0 40px var(--glow-color);
+  }
+  to {
+    text-shadow: 0 0 20px black, 0 0 30px var(--glow-color), 0 0 40px var(--glow-color);
+  }
+}
+a.navbar-brand:hover {color: var(--glow-color) !important;}
+a.nav-link:hover {color: var(--glow-color) !important;}
+
+.glowing-btn {
+  position: relative;
+  color: var(--glow-color);
+  cursor: pointer;
+  padding: 0.35em 1em;
+  border: 0.15em solid var(--glow-color);
+  border-radius: 0.45em;
+  background: none;
+  perspective: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.95em;
+  font-weight: 800;
+  letter-spacing: 1em;
+
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  animation: border-flicker 2s linear infinite;
+}
+.inputMove{
+  margin-bottom: 100px;
+}
+.buttonMove{
+  margin-left: 150px;
+}
+.borderBot{
+  border: solid 1px var(--glow-color);
+  -webkit-box-shadow: inset 0px 0px 0.9em 0px var(--glow-color),
+  0px 0px 0.9em 0px var(--glow-color); 
+-moz-box-shadow: inset 0px 0px 0.9em 0px var(--glow-color),
+  0px 0px 0.9em 0px var(--glow-color); 
+  box-shadow: inset 0px 0px 0.9em 0px var(--glow-color),
+  0px 0px 0.9em 0px var(--glow-color);
+}
+.inputSize{
+  width: 1000px;
+  position: relative;
+  color: var(--glow-color);
+  cursor: progress;
+  padding: 0.35em 1em;
+  border: 0.15em solid var(--glow-color);
+  border-radius: 0.45em;
+  background: none;
+  perspective: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 750;
+
+
+  -webkit-box-shadow: inset 0px 0px 0.6em 0px var(--glow-color),
+    0px 0px 0.6em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.6em 0px var(--glow-color),
+    0px 0px 0.6em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.6em 0px var(--glow-color),
+    0px 0px 0.6em 0px var(--glow-color);
+  animation: border-flicker 1.5s linear infinite;
+}
+.inputReg{
+  width: 500px;
+  position: relative;
+  color: var(--glow-color);
+  cursor: progress;
+  padding: 0.35em 1em;
+  border: 0.15em solid var(--glow-color);
+  border-radius: 0.45em;
+  background: none;
+  perspective: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25em;
+  font-weight: 750;
+
+
+  -webkit-box-shadow: inset 0px 0px 0.6em 0px var(--glow-color),
+    0px 0px 0.6em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.6em 0px var(--glow-color),
+    0px 0px 0.6em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.6em 0px var(--glow-color),
+    0px 0px 0.6em 0px var(--glow-color);
+  animation: border-flicker 1.5s linear infinite;
+}
+.input:focus{
+  outline: none !important;
+  padding: 0.35em 1em;
+  border: 0.15em solid var(--glow-color);
+  border-radius: 0.45em;
+  perspective: 2em;
+
+  }
+.marLefting{
+  margin-left: 50px;
+}
+.glowing-txt {
+  float: left;
+  margin-right: -0.8em;
+  -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
+    0 0 0.45em var(--glow-color);
+  -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
+    0 0 0.45em var(--glow-color);
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
+  animation: text-flicker 3s linear infinite;
+}
+
+.faulty-letter {
+  opacity: 0.5;
+  animation: faulty-flicker 2s linear infinite;
+}
+
+.glowing-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+  filter: blur(1em);
+  transform: translateY(120%) rotateX(95deg) scale(1, 0.35);
+  background: var(--glow-color);
+  pointer-events: none;
+}
+
+.glowing-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  background-color: var(--glow-color);
+  box-shadow: 0 0 2em 0.2em var(--glow-color);
+  transition: opacity 100ms linear;
+}
+
+.glowing-btn:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
+  animation: none;
+}
+
+.glowing-btn:hover .glowing-txt {
+  animation: none;
+}
+
+.glowing-btn:hover .faulty-letter {
+  animation: none;
+  text-shadow: none;
+  opacity: 1;
+}
+
+.glowing-btn:hover:before {
+  filter: blur(1.5em);
+  opacity: 1;
+}
+
+.glowing-btn:hover:after {
+  opacity: 1;
+}
+
+@keyframes faulty-flicker {
+  0% {
+    opacity: 0.1;
+  }
+  2% {
+    opacity: 0.1;
+  }
+  4% {
+    opacity: 0.5;
+  }
+  19% {
+    opacity: 0.5;
+  }
+  21% {
+    opacity: 0.1;
+  }
+  23% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  83% {
+    opacity: 0.4;
+  }
+
+  87% {
+    opacity: 1;
+  }
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity: 0.1;
+  }
+
+  2% {
+    opacity: 1;
+  }
+
+  8% {
+    opacity: 0.1;
+  }
+
+  9% {
+    opacity: 1;
+  }
+
+  12% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  30% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.7;
+  }
+  72% {
+    opacity: 0.2;
+  }
+
+  77% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity: 0.1;
+  }
+  2% {
+    opacity: 1;
+  }
+  4% {
+    opacity: 0.1;
+  }
+
+  8% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .glowing-btn{
+    font-size: 1em;
+  }
+}
+
+.logout{
+  margin-left: 1250px;
+}
+.marTop{
+  margin-top: 100px;
+}
+
+
+.button {
+  background-color: black;
+  position: relative;
+  padding: 16px 30px;
+  font-size: 1.5rem;
+  color: var(--glow-color);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  text-shadow: 0 0 15px var(--glow-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.button:hover {
+  color: var(--glow-color);
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0px var(--glow-color);
+}
+
+.button::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--glow-color);
+  z-index: -1;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.button:hover::before {
+  transform: scale(1);
+  transition-delay: 0.5s;
+  box-shadow: 0 0 10px var(--glow-color),
+    0 0 30px var(--glow-color),
+    0 0 60px var(--glow-color);
+}
+
+.button span {
+  position: absolute;
+  background: var(--glow-color);
+  pointer-events: none;
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--glow-color),
+    0 0 20px var(--glow-color),
+    0 0 30px var(--glow-color),
+    0 0 50px var(--glow-color),
+    0 0 100px var(--glow-color);
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.25s;
+}
+
+.button:hover span {
+  opacity: 0;
+  transition-delay: 0s;
+}
+
+.button span:nth-child(1),
+.button span:nth-child(3) {
+  width: 40px;
+  height: 4px;
+}
+
+.button:hover span:nth-child(1),
+.button:hover span:nth-child(3) {
+  transform: translateX(0);
+}
+
+.button span:nth-child(2),
+.button span:nth-child(4) {
+  width: 4px;
+  height: 40px;
+}
+
+.button:hover span:nth-child(1),
+.button:hover span:nth-child(3) {
+  transform: translateY(0);
+}
+
+.button span:nth-child(1) {
+  top: calc(50% - 2px);
+  left: -50px;
+  transform-origin: left;
+}
+
+.button:hover span:nth-child(1) {
+  left: 50%;
+}
+
+.button span:nth-child(3) {
+  top: calc(50% - 2px);
+  right: -50px;
+  transform-origin: right;
+}
+
+.button:hover span:nth-child(3) {
+  right: 50%;
+}
+
+.button span:nth-child(2) {
+  left: calc(50% - 2px);
+  top: -50px;
+  transform-origin: top;
+}
+
+.button:hover span:nth-child(2) {
+  top: 50%;
+}
+
+.button span:nth-child(4) {
+  left: calc(50% - 2px);
+  bottom: -50px;
+  transform-origin: bottom;
+}
+
+.button:hover span:nth-child(4 ) {
+  bottom: 50%;
 }
